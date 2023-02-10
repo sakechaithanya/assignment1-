@@ -1,6 +1,14 @@
 2#mirror dimension
 sake= input("enter the input ")
 print(sake[::-1])
+#or
+b=[]
+x=input("enter the input ")
+for i in range(len(x)-1,-1,-1):
+    b.append(x[i])
+b=''.join(b)
+print(b)
+
 3#odd n even numbers seies
 sake =input("enter the series").split(',')
 count=0
@@ -12,6 +20,7 @@ for i in sake:
       count1+=1
 print(count," count of even number")
 print(count1,"count of odd number")
+
 1# The Fibonacci Sequence
 fib=0
 n1=0
